@@ -1,7 +1,7 @@
 from App.Admin import Admin
 
 
-class AdminManager():
+class AdminManager:
     def __init__(self, DAO):
         self.admin = Admin(DAO.db.admin)
         self.user = DAO.db.user
